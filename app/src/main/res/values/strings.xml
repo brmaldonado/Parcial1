@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">¿QUIEN SOY?</string>
+
+    <string name="bienvenida">Bienvenido al juego
+        \n¿QUIEN SOY?
+        \npara iniciar haz clic en JUGAR</string>
+    <string name="fin">El juego ha finalizado\nMira tu récord</string>
+    <string name="jugar">Jugar</string>
+    <string name="record">Record</string>
+
+    <string name="cuestion1">Vas caminando y te encuntras con dos caminos. ¿Cuál tomas?</string>
+    <string name="cuestion2">Tropiezas con una piedra, ¿Que haces? </string>
+    <string name="cuestion3">Encuentras un jardín, ¿Que tipo de flor tomas?</string>
+    <string name="cuestion4">Sigues caminando, y encuentras perro ¿Que haces?</string>
+    <string name="cuestion5">Te cansas de caminar, ¿Que haces?</string>
+    <string name="cuestion6">Llegas a una choza, ¿Que haces?</string>
+    <string name="cuestion7">Una mujer se te acerca, ¿Hablas con ella?</string>
+    <string name="cuestion8">Ves a alguien, ¿Quien es?</string>
+    <string name="cuestion9">¿De quien era el perro?</string>
+    <string name="cuestion10">¿De quien era la choza?</string>
+
+    <string name="resp1c">Izquierda</string>
+    <string name="resp1i">Derecha</string>
+    <string name="resp2c">La quito del camino</string>
+    <string name="resp2i">Siguo caminando</string>
+    <string name="resp3c">Rosa</string>
+    <string name="resp3i">Lirio</string>
+    <string name="resp4c">Lo llevo conmigo</string>
+    <string name="resp4i">Lo dejo</string>
+    <string name="resp5c">Continúo</string>
+    <string name="resp5i">Descanso</string>
+    <string name="resp6c">Entro</string>
+    <string name="resp6i">Continúo caminando</string>
+    <string name="resp7c">Sí</string>
+    <string name="resp7i">No</string>
+    <string name="resp8c">Yo</string>
+    <string name="resp8i">No lo sé</string>
+    <string name="resp9c">Mío</string>
+    <string name="resp9i">No lo sé</string>
+    <string name="resp10c">Mía</string>
+    <string name="resp10i">No lo sé</string>
+
+
+</resources>

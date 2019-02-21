@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bienv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen1"
+            android:padding="@dimen/marco"
+            android:text="@string/bienvenida"
+            android:textAlignment="center"
+            android:textSize="@dimen/text"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/marco">
+
+            <Button
+                android:id="@+id/jug"
+                android:layout_width="@dimen/b1"
+                android:layout_height="@dimen/b2"
+                android:text="@string/jugar" />
+
+            <ImageButton
+                android:id="@+id/rec"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/b2"
+                android:src="@drawable/ic_star_black_24dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/marco"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen2"
+            android:text="@string/cuestion1"
+            android:textAlignment="center"
+            android:textSize="@dimen/text" />
+
+        <Button
+            android:id="@+id/r1c"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp1c" />
+
+        <Button
+            android:id="@+id/r1i"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp1i" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/marco"
+
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen2"
+            android:text="@string/cuestion2"
+            android:textAlignment="center"
+            android:textSize="@dimen/text" />
+
+        <Button
+            android:id="@+id/r2i"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp2i" />
+
+        <Button
+            android:id="@+id/r2c"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp2c" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/marco"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen2"
+            android:text="@string/cuestion3"
+            android:textAlignment="center"
+            android:textSize="@dimen/text" />
+
+        <Button
+            android:id="@+id/r3i"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp3i" />
+
+        <Button
+            android:id="@+id/r3c"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp3c" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/marco"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen2"
+            android:text="@string/cuestion4"
+            android:textAlignment="center"
+            android:textSize="@dimen/text" />
+
+        <Button
+            android:id="@+id/r4c"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp4c" />
+
+        <Button
+            android:id="@+id/r4i"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp4i" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/marco"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen2"
+            android:text="@string/cuestion5"
+            android:textAlignment="center"
+            android:textSize="@dimen/text" />
+
+        <Button
+            android:id="@+id/r5c"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp5c" />
+
+        <Button
+            android:id="@+id/r5i"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp5i" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/marco"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen2"
+            android:text="@string/cuestion6"
+            android:textAlignment="center"
+            android:textSize="@dimen/text" />
+
+        <Button
+            android:id="@+id/r6i"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp6i" />
+
+        <Button
+            android:id="@+id/r6c"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp6c" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/marco"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen2"
+            android:text="@string/cuestion7"
+            android:textAlignment="center"
+            android:textSize="@dimen/text" />
+
+        <Button
+            android:id="@+id/r7c"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp7c" />
+
+        <Button
+            android:id="@+id/r7i"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp7i" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/marco"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen2"
+            android:text="@string/cuestion8"
+            android:textAlignment="center"
+            android:textSize="@dimen/text" />
+
+        <Button
+            android:id="@+id/r8i"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp8i" />
+
+        <Button
+            android:id="@+id/r8c"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp8c" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/marco"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen2"
+            android:text="@string/cuestion9"
+            android:textAlignment="center"
+            android:textSize="@dimen/text" />
+
+        <Button
+            android:id="@+id/r9i"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp9i" />
+
+        <Button
+            android:id="@+id/r9c"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp9c" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/f10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/marco"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen2"
+            android:text="@string/cuestion10"
+            android:textAlignment="center"
+            android:textSize="@dimen/text" />
+
+        <Button
+            android:id="@+id/r10c"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp10c" />
+
+        <Button
+            android:id="@+id/r10i"
+            android:layout_width="@dimen/b3"
+            android:layout_height="@dimen/b2"
+            android:text="@string/resp10i" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/marco">
+
+        <TextView
+            android:id="@+id/fin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen2"
+            android:text="@string/fin"
+            android:textAlignment="center"
+            android:textSize="@dimen/text"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/marco">
+
+        <TextView
+            android:id="@+id/record"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen2"
+            android:hint="@string/record"
+            android:padding="@dimen/marco"
+            android:text="@string/fin"
+            android:textAlignment="center"
+            android:textSize="@dimen/text"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+

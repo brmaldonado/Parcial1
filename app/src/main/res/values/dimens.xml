@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marco">30dp</dimen>
+    <dimen name="text">40dp</dimen>
+    <dimen name="dimen1">400dp</dimen>
+    <dimen name="dimen2">250dp</dimen>
+
+    <dimen name="b1">100dp</dimen>
+    <dimen name="b2">50dp</dimen>
+    <dimen name="b3">200dp</dimen>
+
+
+</resources>
